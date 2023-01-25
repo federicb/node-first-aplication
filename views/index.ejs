@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <%- include('partials/head.ejs') %> 
+  </head>
+  <body>
+    <%- include('partials/navigation') %> 
+    
+    <!--MAIN CONTENT-->
+    <header class="container vh-100 d-flex justify-content-center align-items-center flex-column">
+        <div class="d-flex justify-content-center align-items-center">
+          <img src="images/porky.gif" alt="Logo empresa" class="w-25">
+          <h1 class="display-1 my-5 text-uppercase fw-bold">FLY PORKY</h1>
+        </div>
+        <a href="/about" class="btn btn-primary mt-5 bg-white text-dark border-dark border border-2">About</a>
+    </header>
+
+    <%- include('partials/footer') %> 
+  </body>
+</html>
